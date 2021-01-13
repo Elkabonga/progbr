@@ -1,0 +1,22 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  width: 500px;
+  color: green;
+  padding: 20px;
+  text-align: justify;
+  text-transform: uppercase;
+  text-indent: 40px;
+  text-decoration: overline underline line-through;
+  letter-spacing: 5px;
+  line-height: 20px;
+  word-spacing: 30px;
+  text-shadow: 1px 1px 5px black;
+}
+
+a {
+  text-decoration: none;
+}

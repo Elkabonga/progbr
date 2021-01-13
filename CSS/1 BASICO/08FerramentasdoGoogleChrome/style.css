@@ -4,7 +4,7 @@
 }
 
 body {
-  background-image: url(../../../assets/tile.jpg);
+  background-image: url(../../../assets/images/tile.jpg);
 }
 
 h1 {
@@ -21,7 +21,7 @@ h2 {
 .ContainerParagraph {
   display: flex;
   padding: 10px;
-  background-image: url(../../../assets/background.jpg);
+  background-image: url(../../../assets/images/background.jpg);
   width: 600px;
   height: 100%;
   background-repeat: no-repeat;
