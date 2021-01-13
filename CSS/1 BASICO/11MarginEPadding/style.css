@@ -1,0 +1,22 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  border: 2px solid red;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container {
+  border: 2px solid blue;
+  margin: 20px;
+  padding: 20px;
+}
+
+.inside {
+  border: 2px solid green;
+  margin: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,19 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.container {
+  font-size: 2em;
+  background-color: cyan;
+}
+
+.inside {
+  font-size: 2em;
+  background-color: chartreuse;
+}

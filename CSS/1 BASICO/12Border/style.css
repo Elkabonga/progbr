@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  margin: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 10px;
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.bola {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  border: 5px solid red;
+  align-items: center;
+  justify-content: center;
+}

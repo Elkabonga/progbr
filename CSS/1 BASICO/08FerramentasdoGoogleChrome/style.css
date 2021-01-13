@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(../../../assets/tile.jpg);
+}
+
+h1 {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+.ContainerParagraph {
+  display: flex;
+  padding: 10px;
+  background-image: url(../../../assets/background.jpg);
+  width: 600px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  padding: 20px;
+}
+
+.Subdiv {
+  background-color: black;
+  color: white;
+}
