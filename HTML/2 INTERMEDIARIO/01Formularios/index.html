@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01Formularios</title>
+  </head>
+  <body>
+    <h1>01Formulários</h1>
+    Get
+    <form method="GET" action="/cadastro">
+      <input type="text" name="email" />
+      <input type="text" name="nome" />
+      <input type="submit" />
+    </form>
+    <br />
+    Post
+    <form method="POST" action="/cadastro">
+      <input type="text" name="email" />
+      <input type="text" name="nome" />
+      <input type="submit" />
+    </form>
+    <br />
+    <h2>Form Youtube</h2>
+    <p>Value = 5abamRO41fE</p>
+    <form method="GET" action="https://www.youtube.com/watch" target="_blanck">
+      <input type="text" name="v" />
+      <input type="submit" />
+    </form>
+    <h2>Form de Busca do Youtube</h2>
+    <p>insira uma pesquisa abaixo</p>
+    <form method="GET" action="https://www.youtube.com/results" target="_blanck">
+      <input type="text" name="search_query" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
