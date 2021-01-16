@@ -1,0 +1,35 @@
+.card {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  border: 1px solid green;
+  float: left;
+  text-align: center;
+  box-sizing:border-box;
+}
+
+.c1 {
+  background-color: crimson;
+  line-height: 150px;
+}
+
+.c2 {
+  color: white;
+  font-weight: bolder;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c3 {
+  display: flex;
+  border: 1px solid green;
+  width: 300px;
+  height: 150px;
+  box-sizing:border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}

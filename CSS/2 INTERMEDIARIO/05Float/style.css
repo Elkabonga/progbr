@@ -1,0 +1,31 @@
+#i1 {
+  float: left;
+}
+
+#i2 {
+  float: right;
+}
+
+p {
+  clear: both;
+}
+
+.container {
+  border:1px solid red;
+  overflow: auto;
+  padding: 10px;
+  background-color: burlywood;
+}
+
+ul {  
+  list-style: none;
+}
+
+li {
+  float: right;
+  padding: 10px;
+  background-color: burlywood;
+  margin: 5px;
+  width: 50px;
+  text-align: center;
+}

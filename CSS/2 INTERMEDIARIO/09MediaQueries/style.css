@@ -1,0 +1,56 @@
+.header {
+  overflow: auto;
+  width: 80%;
+  margin: auto;
+  background-color: #5c57a4;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.logo {
+  float: left;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    background-color: violet;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .header {
+    background-color: red;
+  }
+
+  .logo {
+    float: none;
+    text-align: center;
+  }
+
+  .menu {
+    margin-top: 20px;
+    float: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  li {
+    float: none;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+}
