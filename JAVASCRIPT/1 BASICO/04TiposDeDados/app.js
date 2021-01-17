@@ -19,6 +19,9 @@ var objeto = {}
 // Symbol
 var simbolo = Symbol()
 
+// Array
+var array = new Array()
+
 console.log(
   typeof boleano, //boolean 
   typeof naoDefinida, //undefined 
@@ -27,4 +30,5 @@ console.log(
   typeof texto, //string 
   typeof objeto, //object 
   typeof simbolo, //symbol
+  typeof array, //object
 );
