@@ -1,4 +1,4 @@
-// crie um sistema que contenha descrição abaixo
+// crie um sistema que contenha
 // nome do aluno - nota 1 - nota 2 - média - aprovação
 
 var nomes = [`igor`, `tiago`, `jão`]
