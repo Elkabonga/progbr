@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05DomEvents1-3</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1>05DomEvents1-3</h1>
+    <!-- aqui a função vai contar os clicks no elemento h2 -->
+    <h2 onclick="h2Click()">Clique em mim</h2>
+
+    <!-- aqui vai trocar para color red -->
+    <h2 onclick="this.style.color='red'">Clique em mim</h2>
+
+    <!-- aqui vou pegar o input e imprimir no elemento h2 -->
+    <h2 class="h2">Clique em mim</h2>
+    <input id="texto" type="text" onchange="changeH2()" />
+
+    <!-- aqui faço a mesma coisa q em cima porém
+    usando o this e simplificando codigo -->
+    <h2 class="h2WithThis">Clique em mim</h2>
+    <input type="text" onchange="changeH2WithThis(this)" />
+
+    <!-- aqui utilizo o evento 'oninput' no qual a cada tecla ele ja -->
+    <!-- atualiza o evento sem precisar dar enter como no onchange -->
+    <h2 class="h2WithThisAndOninput">Clique em mim</h2>
+    <input type="text" oninput="changeH2WithThis(this)" />
+
+    <div onclick="hideH1()">Click</div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

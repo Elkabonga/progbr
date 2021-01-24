@@ -1,0 +1,10 @@
+div {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  font-size: 2rem;
+  background-color: cornflowerblue;
+  color: aliceblue;
+  border-radius: 7px;
+  width: 200px;
+}
