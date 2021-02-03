@@ -18,8 +18,17 @@ image.addEventListener('click', function () {
 let lista = document.getElementById('lista')
 console.log(lista);
 
+// abaixo podemos até setar os dados
+lista.dataset.n = '4'
+
+let id = parseInt(lista.getAttribute('data-id'))
+console.log(id);
+
 // peguei a props q é string e transformei em int com o parseInt
-let num = parseInt(lista.getAttribute('num'))
+// let num = parseInt(lista.getAttribute('data-n'))
+
+// qnd usamos 'data-' podemos utilizar dateset
+let num = parseInt(lista.dataset.n)
 console.log(num);
 
 conteudo = ''
