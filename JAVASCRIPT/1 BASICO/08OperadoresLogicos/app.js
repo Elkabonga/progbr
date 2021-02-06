@@ -11,5 +11,4 @@ var d = a || b
 var e = a &&! b
 var f = a ||! b
 
-
 console.log(c, d, e, f);
