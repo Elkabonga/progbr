@@ -1,0 +1,32 @@
+.container {
+  display: flex;  
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.controle {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn{
+  width: 40px;
+  margin: 10px;
+}
+@media screen and (max-width: 510px) {
+  .btn{
+    width: 30px;
+    margin: 5px;
+  }
+}
