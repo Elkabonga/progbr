@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+}
+
+h2,
+.p2 {
+  background-color: red;
+}
+
+div p {
+  background-color: yellow;
+}
+
+div > p {
+  background-color: green;
+}
+
+header ~ p {
+  background-color: turquoise;
+}
+
+header + p {
+  background-color: tomato;
+}
+
+[width] {
+  background-color: violet;
+}
+
+[width="400"] {
+  background-color: blueviolet;
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+.container {
+  background-color: blue;
+  width: 100%;
+}
+
+.primeira {
+  display: inline-block;
+  width: calc(100% - 150px);
+  margin: 0px -4px -4px 0px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.segunda {
+  display: inline-block;
+  margin: 0px -4px -4px 0px;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+}

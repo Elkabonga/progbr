@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  background-color: gray;
+  height: 400px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.r1 {
+  background-color: red;
+}
+
+.r2 {
+  background-color: blue;
+}
+
+.r3 {
+  background-color: green;
+}
+
+.react {
+  width: 100px;
+  height: 100px;
+}

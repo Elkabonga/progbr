@@ -1,0 +1,25 @@
+:root {
+  --var-color: green;
+  --square-size: 100px;
+}
+
+.p2 {
+  color: var(--var-color);
+  font-size: 24px;
+}
+.p3 {
+  color: var(--var-color);
+  font-size: 14px;
+}
+
+.quad1 {
+  width: var(--square-size);
+  height: var(--square-size);
+  background-color: turquoise;
+}
+
+.quad2 {
+  width: var(--square-size);
+  height: var(--square-size);
+  background-color: tomato;
+}

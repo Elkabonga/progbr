@@ -1,0 +1,28 @@
+img {
+  display: inline;
+  width: 100px;
+  margin: 20px;
+}
+
+.img1 {
+  transform: rotate(-45deg);
+}
+
+.img2 {
+  transform: scale(0.5);
+}
+
+.img3 {
+  transform: skew(40deg);
+}
+
+.img4 {
+  transform: skew(20deg, 20deg) scale(0.7, 1);
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  transform: skew(-20deg, -20deg) scale(0.7, 1);
+}

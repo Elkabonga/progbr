@@ -1,0 +1,35 @@
+input:focus {
+  color: red;
+}
+/* 
+li:first-child {
+  color: blue;
+} */
+
+li:nth-child(3) {
+  color: green;
+}
+
+li:nth-last-child(2) {
+  color: brown;
+}
+
+li:first-of-type {
+  color: purple;
+}
+
+li:nth-of-type(3) {
+  color: red;
+}
+
+li:last-of-type {
+  color: orange;
+}
+
+li:nth-of-type(odd) {
+  background-color: gray;
+}
+
+li:nth-of-type(even) {
+  background-color: yellow;
+}
