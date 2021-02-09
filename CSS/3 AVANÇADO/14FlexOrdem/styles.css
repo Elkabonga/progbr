@@ -1,29 +1,29 @@
 .container {
   display: flex;
-  flex-flow: row wrap;
-
-  align-content: flex-start;
 
   background-color: gray;
-  height: 500px;
+  height: 400px;
   color: white;
   font-size: 20px;
   font-weight: bold;
 }
 
 .r1 {
+  order: 1;
   background-color: red;
 }
 
 .r2 {
+  order: 0;
   background-color: blue;
 }
 
 .r3 {
+  order: -1;
   background-color: green;
 }
 
 .react {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
