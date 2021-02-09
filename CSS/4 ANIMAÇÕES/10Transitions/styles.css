@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  padding: 20px;
+  background-color: teal;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 10px;
+
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-delay: .1s;
+  transition-timing-function: ease-in-out;
+}
+
+.btn:hover {
+  background-color: turquoise;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+div {
+  display: flex;
+  margin: auto;
+}

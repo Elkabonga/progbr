@@ -1,0 +1,38 @@
+@keyframes changeColors {
+  0% {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+  }
+  25% {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    background-color: red;
+    width: 10px;
+    height: 10px;
+  }
+  75% {
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+  }
+  100% {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  animation-name: changeColors;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: both;
+}
