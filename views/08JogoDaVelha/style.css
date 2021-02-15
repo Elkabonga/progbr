@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+html {
+  padding: 10px;
+}
+
+h1 {
+  color: white;
+}
+
+.stage {
+  margin-top: 10px;
+}
+
+.square {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background-color: yellow;
+  border: solid 1px red;
+}
+
+.o {
+  position: relative;
+}
+
+.o::after {
+  position: absolute;
+  content: "\1F41C";
+  font-size: 40px;
+  line-height: 75px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x {
+  position: relative;
+}
+
+.x::after {
+  position: absolute;
+  content: "\1F34C";
+  font-size: 40px;
+  line-height: 75px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
