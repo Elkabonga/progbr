@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Memória</title>
+  </head>
+  <body>
+    <div id="gameBoard"></div>
+
+    <div id="gameOver">
+      <div>
+        Parabéns, você completou o jogo!
+        <p id="totalMoves"></p>
+      </div>
+      <button id="restart" onclick="restart()">Jogue novamente</button>
+    </div>
+    <div id="cont">
+      <h1>Estatísticas</h1>
+      <p id="games"></p>
+      <p id="moves"></p>
+      <p id="right"></p>
+      <p id="wrong"></p>
+    </div>
+
+    <script src="game.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
