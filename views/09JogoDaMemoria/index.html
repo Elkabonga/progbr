@@ -7,22 +7,24 @@
     <title>Memória</title>
   </head>
   <body>
-    <div id="gameBoard"></div>
+<div class="container">
+  <div id="gameBoard"></div>
 
-    <div id="gameOver">
-      <div>
-        Parabéns, você completou o jogo!
-        <p id="totalMoves"></p>
-      </div>
-      <button id="restart" onclick="restart()">Jogue novamente</button>
+  <div id="gameOver">
+    <div>
+      Parabéns, você completou o jogo!
+      <p id="totalMoves"></p>
     </div>
-    <div id="cont">
-      <h1>Estatísticas</h1>
-      <p id="games"></p>
-      <p id="moves"></p>
-      <p id="right"></p>
-      <p id="wrong"></p>
-    </div>
+    <button id="restart" onclick="restart()">Jogue novamente</button>
+  </div>
+  <div id="cont">
+    <h1>Estatísticas</h1>
+    <p id="games"></p>
+    <p id="moves"></p>
+    <p id="right"></p>
+    <p id="wrong"></p>
+  </div>
+</div>
 
     <script src="game.js"></script>
     <script src="script.js"></script>
