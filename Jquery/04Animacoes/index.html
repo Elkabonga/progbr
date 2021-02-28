@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04Animacoes</title>
+    <style>
+      #square {
+        width: 300px;
+        height: 300px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>04Animacoes</h1>
+    <div>
+      <button id="button1">fadeOut</button>
+      <button id="button2">Fade in</button>
+      <button id="button3">Fade Toggle</button>
+      <button id="button4">Fade To</button>
+    </div>
+    <div>
+      <button id="button5">Slide Down</button>
+      <button id="button6">Slide Up</button>
+      <button id="button7">Slide Toggle</button>
+    </div>
+    <div>
+      <button id="button8">Animate</button>
+      <button id="button9">Stop</button>
+    </div>
+    <div id="square"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $("#button1").click(() => {
+        $("#square").fadeOut();
+      });
+
+      $("#button2").click(() => {
+        $("#square").fadeIn();
+      });
+
+      $("#button3").click(() => {
+        $("#square").fadeToggle();
+      });
+
+      $("#button4").click(() => {
+        $("#square").fadeTo(1000, 0.5);
+      });
+
+      $("#button5").click(() => {
+        $("#square").slideDown();
+      });
+
+      $("#button6").click(() => {
+        $("#square").slideUp();
+      });
+
+      $("#button7").click(() => {
+        $("#square").slideToggle();
+      });
+
+      $("#button8").click(() => {
+        $("#square").animate({ width: 500 }, 4000);
+      });
+
+      $("#button9").click(() => {
+        $("#square").stop();
+      });
+    </script>
+  </body>
+</html>

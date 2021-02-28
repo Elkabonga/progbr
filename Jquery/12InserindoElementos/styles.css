@@ -1,0 +1,15 @@
+li {
+  font-size: 20px;
+  background-color: gray;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 150px;
+  color: white;
+  padding: 5px;
+}
+
+.rect {
+  width: 150px;
+  height: 150px;
+  background-color: teal;
+}

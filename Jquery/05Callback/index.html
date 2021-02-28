@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05Callback</title>
+    <style>
+      #red {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+        display: none;
+      }
+      #green {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>05Callback</h1>
+
+    <button id="button">Hide</button>
+
+    <div id="green"></div>
+    <div id="red"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+
+      function callback() {
+        console.log('green escondido');
+        console.log('agora começa show red');
+        $('#red').show(2000).hide(2000)
+      }
+
+      $("#button").click(() => {
+        $("#green").hide(2000, callback)
+      });
+
+    </script>
+  </body>
+</html>

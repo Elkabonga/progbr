@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>03Eventos</title>
+  </head>
+  <body>
+    <h1>03Eventos</h1>
+
+    <h2>Um H2</h2>
+
+    <h2 class="tituloH2">Outro H2</h2>
+
+    <h2 id="sair" style="display: none;">Não saia agora</h2>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      
+      $('.tituloH2').click(()=>{
+        console.log('click');
+      })
+
+      $('.tituloH2').mouseenter(()=>{
+        console.log('mouseenter');
+      })
+
+      $('.tituloH2').mouseleave(()=>{
+        console.log('mouseleave');
+      })
+
+      $('.tituloH2').dblclick(()=>{
+        console.log('dblclick');
+      })
+
+      $(document).mouseleave(()=>{
+        $('#sair').show()
+      })
+
+    </script>
+  </body>
+</html>

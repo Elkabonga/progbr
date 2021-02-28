@@ -1,0 +1,1 @@
+console.log($('#lista2').find('[key = 2]').remove());
