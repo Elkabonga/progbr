@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>09Grid</title>
+    <title>08FlexBox</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,15 +13,26 @@
     />
   </head>
   <body>
-    <div class="container d-flex justify-content-between align-items-center">
-      <div class="bg-primary">linha 1</div>
-      <div class="bg-warning">linha 2</div>
-      <div class="bg-success">linha 3</div>
-      <div>
-        <div class="bg-info">linha 4</div>
-        <div class="bg-secondary">linha 5</div>
-        <div class="bg-dark text-light">linha 6</div>
-      </div>
+    
+    <h1>09Grid</h1>
+
+    <div class="row justify-content-between">
+      <div class=" bg-info col-2"> Col</div>
+      <div class=" bg-success col-2"> Col</div>
+    </div>
+    <div class="row">
+      <div class=" bg-info col-2"> Col</div>
+      <div class=" bg-success col"> Col</div>
+    </div>
+    <div class="row">
+      <div class=" bg-info col-5"> Col</div>
+      <div class=" bg-success col-7"> Col</div>
+    </div>
+    <div class="row">
+      <div class=" bg-info col-md-3"> Col</div>
+      <div class=" bg-success col-md-3"> Col</div>
+      <div class=" bg-info col-md-3"> Col</div>
+      <div class=" bg-success col-md-3"> Col</div>
     </div>
 
     <script
