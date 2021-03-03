@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>02JSX</title>
+</head>
+
+<body>
+  <h1>02JSX</h1>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script type="text/babel">
+    const root = document.querySelector("#root");
+    ReactDOM.render(
+      <div>
+        <h2 id="SubTitulo">Sub Titulo</h2>
+        <h3 id="Text">JSX</h3>
+      </div>,
+      root
+    );
+  </script>
+</body>
+
+</html>
