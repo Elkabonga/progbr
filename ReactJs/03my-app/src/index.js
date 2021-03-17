@@ -6,6 +6,7 @@ import ComponentesEPropriedades from "./02ComponentesEPropriedades/App";
 import Listas from "./03Listas/App";
 import CriandoObjetosComClass from "./04CriandoObjetosComClass/index";
 import ComponentesComClass from "./05ComponentesComClass/App";
+import Estados from "./06Estados/App";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
@@ -17,7 +18,8 @@ ReactDOM.render(
     {/* abaixo utilizando node index.js no terminal */}
     {/* <CriandoObjetosComClass /> */}
 
-    <ComponentesComClass />
+    {/* <ComponentesComClass /> */}
+    <Estados />
   </React.StrictMode>,
   document.getElementById("root")
 );
