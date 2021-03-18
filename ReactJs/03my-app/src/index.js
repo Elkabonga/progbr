@@ -1,13 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 import CreateMyApp from "./01Create-my-app/App";
 import ComponentesEPropriedades from "./02ComponentesEPropriedades/App";
 import Listas from "./03Listas/App";
 import CriandoObjetosComClass from "./04CriandoObjetosComClass/index";
 import ComponentesComClass from "./05ComponentesComClass/App";
 import Estados from "./06Estados/App";
-import reportWebVitals from "./reportWebVitals";
+import MetodosDeCicloDeVida from "./07MetodosDeCicloDeVida/App";
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,7 +21,8 @@ ReactDOM.render(
     {/* <CriandoObjetosComClass /> */}
 
     {/* <ComponentesComClass /> */}
-    <Estados />
+    {/* <Estados /> */}
+    <MetodosDeCicloDeVida />
   </React.StrictMode>,
   document.getElementById("root")
 );
