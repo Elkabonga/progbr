@@ -34,7 +34,7 @@ class Counter extends React.Component {
   // shouldComponentUpdate é um método de vida de um component
   // porém ele só é executado qnd algum componentes foi retirado da tela
   componentWillUnmount() {
-    
+
   }
 
   // render é um método de vida de um component

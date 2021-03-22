@@ -9,6 +9,9 @@ import CriandoObjetosComClass from "./04CriandoObjetosComClass/index";
 import ComponentesComClass from "./05ComponentesComClass/App";
 import Estados from "./06Estados/App";
 import MetodosDeCicloDeVida from "./07MetodosDeCicloDeVida/App";
+import HooksEstados from "./08HooksEstados/App";
+import HooksEffect from "./09HooksEffect/App";
+import HookEffectEquivalenteAoUnmount from "./10HookEffectEquivalenteAoUnmount/App";
 
 
 ReactDOM.render(
@@ -22,7 +25,10 @@ ReactDOM.render(
 
     {/* <ComponentesComClass /> */}
     {/* <Estados /> */}
-    <MetodosDeCicloDeVida />
+    {/* <MetodosDeCicloDeVida /> */}
+    {/* <HooksEstados /> */}
+    {/* <HooksEffect /> */}
+    <HookEffectEquivalenteAoUnmount />
   </React.StrictMode>,
   document.getElementById("root")
 );
