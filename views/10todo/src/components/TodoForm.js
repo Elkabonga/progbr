@@ -1,26 +1,27 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 function TodoForm(props) {
-  const [text, setText] = useState('')
+  const [text, setText] = useState("");
 
   function handleChange(event) {
-    let t = event.target.value
-    setText(t)
+    let t = event.target.value;
+    setText(t);
   }
 
   function addItem(event) {
-    event.preventDefault()
+    event.preventDefault();
     if (text) {
-      props.onAddItem(text)
-      setText('')
+      props.onAddItem(text);
+      setText("");
     }
   }
 
-  return (<form>
-    <input type="text" onChange={handleChange} value={text} />
-    <button onClick={addItem}>Add</button>
-  </form>)
-
+  return (
+    <form>
+      <input type="text" onChange={handleChange} value={text} />
+      <button onClick={addItem}>Add</button>
+    </form>
+  );
 }
 
-export default TodoForm
+export default TodoForm;

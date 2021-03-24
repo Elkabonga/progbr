@@ -1,14 +1,19 @@
-import React from 'react'
+import React from "react";
+import ListItem from "./ListaItem";
 
 function List(props) {
-
-  return (<ul>
-    {props.items.map(item => <li key={item.id}>{item.text}
-      <button onClick={() => { props.onItemDeleted(item) }}>
-        <img src="./assets/bin.png" alt="delete" />
-      </button>
-    </li>)}
-  </ul>)
+  return (
+    <ul>
+      {props.items.map((item) => (
+        <ListItem
+          key={item.id}
+          item={item}
+          onDone={props.onDone}
+          onItemDeleted={props.onItemDeleted}
+        ></ListItem>
+      ))}
+    </ul>
+  );
 }
 
-export default List
+export default List;
