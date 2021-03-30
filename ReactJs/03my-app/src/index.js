@@ -13,6 +13,7 @@ import HooksEstados from "./08HooksEstados/App";
 import HooksEffect from "./09HooksEffect/App";
 import HookEffectEquivalenteAoUnmount from "./10HookEffectEquivalenteAoUnmount/App";
 // import GerenciandoOEstadoComContextAPI from "./11GerenciandoOEstadoComContextAPI/App";
+import ReactRedux from "./12ReactRedux/App";
 
 
 ReactDOM.render(
@@ -29,8 +30,9 @@ ReactDOM.render(
     {/* <MetodosDeCicloDeVida /> */}
     {/* <HooksEstados /> */}
     {/* <HooksEffect /> */}
-    <HookEffectEquivalenteAoUnmount />
+    {/* <HookEffectEquivalenteAoUnmount /> */}
     {/* <GerenciandoOEstadoComContextAPI /> */}
+    <ReactRedux />
   </React.StrictMode>,
   document.getElementById("root")
 );
