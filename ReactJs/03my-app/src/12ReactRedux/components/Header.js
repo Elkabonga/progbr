@@ -1,9 +1,13 @@
 import React from 'react'
+import { useSelector } from 'react-redux'
 
 function Header(props) {
-  return(<div className='header'>
+
+  const contador = useSelector((state) => { return state })
+
+  return (<div className='header'>
     <h3>contador</h3>
-    <div>0</div>
+    <div>{contador}</div>
   </div>)
 }
 
