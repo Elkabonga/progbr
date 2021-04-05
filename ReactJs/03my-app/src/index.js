@@ -14,6 +14,7 @@ import HooksEffect from "./09HooksEffect/App";
 import HookEffectEquivalenteAoUnmount from "./10HookEffectEquivalenteAoUnmount/App";
 // import GerenciandoOEstadoComContextAPI from "./11GerenciandoOEstadoComContextAPI/App";
 import ReactRedux from "./12ReactRedux/App";
+import CombineReducerReact from "./13CombineReducerReact/App";
 
 
 ReactDOM.render(
@@ -32,7 +33,8 @@ ReactDOM.render(
     {/* <HooksEffect /> */}
     {/* <HookEffectEquivalenteAoUnmount /> */}
     {/* <GerenciandoOEstadoComContextAPI /> */}
-    <ReactRedux />
+    {/* <ReactRedux /> */}
+    <CombineReducerReact />
   </React.StrictMode>,
   document.getElementById("root")
 );
